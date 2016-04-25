@@ -10,13 +10,13 @@ public class TelevisionTest {
 		
 		mytv.channel = 18;
 		mytv.volume = 20;
-		mytv.onOff = true;
+		mytv.onOff = false;
 		//mytv.onOff=false;
 		
 		//mytv.volume = mytv.volumeup(30);
 		mytv.volumeUP(30);
 		mytv.volumeUP();
-		//System.out.println(mytv.channel+" "+mytv.volume+" "+mytv.onOff);
+		System.out.println(mytv.channel+" "+mytv.volume+" "+mytv.onOff);
 		mytv.pr();
 		
 		
